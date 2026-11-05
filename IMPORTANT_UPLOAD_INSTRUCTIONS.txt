@@ -1,0 +1,26 @@
+GLENN BEAVERS WEBSITE — INTERACTIVE LIBRARY V3.4
+
+Your website folder must contain:
+  index.html                     <-- MAIN WEBSITE (do not overwrite with library export)
+  interactive-books/
+      index.html                 <-- INTERACTIVE LIBRARY (replace THIS file with manager export)
+      library.json
+      previews/
+  books/                         <-- individual book details pages
+  images/                        <-- original cover images
+  about.html, contact.html, videos.html
+
+WHEN ADDING A BOOK:
+1. Open Glenn_Interactive_Library_Manager_V3.html, add book, choose cover, save.
+2. Click Download Updated Library Page. Browser downloads a file called index.html.
+3. In your extracted website or GitHub repository, OPEN the interactive-books folder FIRST.
+4. Upload or move that downloaded index.html into interactive-books/ and overwrite the index.html THERE.
+5. DO NOT replace the main website index.html in the top-level folder.
+6. For new books, also Download New Book Details Page and upload it to books/ (not interactive-books/).
+7. Test by opening the MAIN index.html and clicking Interactive Books.
+
+IMPORTANT: The manager's exported page uses ../index.html to return to the main website. This is correct only when the exported page is in interactive-books/. If it is placed at the repository root, Home links will give 404.
+
+If you have already overwritten the main index.html on GitHub, restore the top-level index.html from this ZIP and put the manager-exported page in interactive-books/index.html.
+
+Your newly added book is not automatically included in this ZIP; export its updated library page from the manager again. Keep your saved library.json as backup.
